@@ -32,6 +32,9 @@ http://localhost:8088
 ユーザ名:root
 パスワード:rootpassword
 ```
+<img width="803" height="593" alt="image" src="https://github.com/user-attachments/assets/dc85b89b-6180-484a-bc40-a8532cc6a95e" />
+
+
 
 6. 左の「sql_circuit」データベースをクリック
 
