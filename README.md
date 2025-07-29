@@ -1,48 +1,50 @@
-# MySQLハンズオン
+# SQL サーキット
 
-1. Dockerの起動
+## セットアップ方法
+
+1. リポジトリをクローン
+
+```
+git clone git@github.com:RareTECH-Event/SQL_Circuit-repository.git
+```
+
+2. ディレクトリに移動
+
+```
+cd SQL_Circuit-repository
+```
+
+3. Docker の起動
+
 ```
 docker compose up -d
 ```
 
-2. Dockerコンテナに入る
+4. ブラウザを開く
+
 ```
-docker compose exec db /bin/bash
+http://localhost:8088
 ```
 
-3. MySQLに入る
+5. phpMyAdmin にログインする
+
 ```
-mysql -uroot
+ユーザ名:root
+パスワード:rootpassword
 ```
 
-4. データベース切り替え
-```
-USE db;
-```
+6. 左の「sql_circuit」データベースをクリック
 
-5. テーブルを見る
-```
-SHOW TABLES;
-```
+7. 上の「SQL」タブをクリック
 
----
+8. Docker を停止
 
-6. MySQLから出る
-```
-exit;
-```
-
-7. Dockerから出る
-```
-exit
-```
-
-8. Dockerを停止
 ```
 docker compose down -v
 ```
 
-9. Dockerのクリア
+9. Docker のクリア
+
 ```
 docker system prune -a
 ```
