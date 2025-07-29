@@ -34,13 +34,18 @@ http://localhost:8088
 ```
 <img width="803" height="593" alt="image" src="https://github.com/user-attachments/assets/dc85b89b-6180-484a-bc40-a8532cc6a95e" />
 
-
-
 6. 左の「sql_circuit」データベースをクリック
+
+<img width="1611" height="792" alt="スクリーンショット 2025-07-29 17 33 35" src="https://github.com/user-attachments/assets/77099819-bd6c-4e8d-abf4-45f0731655b7" />
 
 7. 上の「SQL」タブをクリック
 
-8. Docker を停止
+<img width="1611" height="768" alt="スクリーンショット 2025-07-29 17 35 29" src="https://github.com/user-attachments/assets/958e527e-1fe4-4936-a5e2-9cc107a98d28" />
+
+
+
+## サーキットが終わったら・・・
+8 . Docker を停止
 
 ```
 docker compose down -v
